@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appTodo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/rabbitCloud.css">
+    <link rel="stylesheet" href="./assets/css/dog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <button id="moonButton"></button>
+    <div class="clouds" id="clouds"></div>
+    
+    <div class="todo-app">
+        <div class="todo-app__part">
+            <h1 class="todo-app__title">
+                Todo App
+            </h1>
+            <div class="todo-app__form">
+                <form action="#" id="todo-app__create" class="todo-app__create">
+                    <input type="text" name="content" placeholder="Nội dung...">
+                    <button><i class="fa-solid fa-plus"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="todo-app__list">
+            
+        </div>
+        <div class="todo-app__list-completed">
+            
+        </div>
+        <div id="control-buttons" class="control-buttons">
+            <div class="btn-secondary" id="hide-complete">
+                <span>Hide</span> Complete</div> 
+            <div class="btn-secondary btn-secondary-clear" id="clearAllButton">
+                Clear All
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./assets/js/script.js"></script>
+    <script src="./assets/js/meteor.js"></script>
+</body>
+</html>

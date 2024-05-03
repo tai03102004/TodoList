@@ -1,0 +1,15 @@
+{
+  "name": "apptodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "meteor.js",
+  "scripts": {
+    "start": "sass --watch assets/scss:assets/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "scss": "^0.2.4"
+  }
+}
